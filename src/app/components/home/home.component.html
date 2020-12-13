@@ -1,0 +1,5 @@
+<div>
+    <div *ngFor="let menu of menus">
+        <app-home-list [menu]="menu" (updateMeEvent)="updateMe($event)"></app-home-list>
+    </div>
+</div>
